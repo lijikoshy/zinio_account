@@ -1,0 +1,185 @@
+
+/*                         Index.html                          */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    
+}
+.container{
+    width: 100%;
+    padding-left: 86px;
+}
+.left-section{
+    width: 50%;
+    
+    float: left;
+}
+.right-section{
+    width: 50%;
+    float: right;
+    margin-right: 1px;
+    margin-top: 250px;
+   
+}
+
+.pic{
+   height: 500px;
+   margin-top: -218px;
+}
+.first-name{
+    border-radius: 5px;
+    height: 35px;
+}
+
+.last-name{
+    margin-top: -35px;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 184px;
+}
+.name{
+    border-radius:5px;
+    height: 35px;
+}
+.text-box{
+    border-radius:5px;
+    height: 35px;
+    width: 354px;
+}
+
+
+/*                         Profile.html                          */
+
+
+.font-icon{
+    margin-left: 56px;
+}
+.main-content{
+    /*width: 80%;*/
+    float: right;
+    position: relative;
+    background-color: #eee;
+    min-height: 100vh;
+    top: 0;
+    left: 170px;
+    transition: all 0.5s ease;
+    width:calc(100% - 80px);
+    padding: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    float: left;
+}
+.right-nav{
+    float: right;
+    padding-right: 378px;
+}
+.search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 5px;
+    background: #f6f6ff;
+    width: 139px;
+    height: 3px;
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    outline: none;
+    border: none;
+    background: transparent;
+    
+    flex: 1;
+    margin-left: 14px;
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: gray;
+    padding: .4rem .8rem;
+    transition: all 0.5s ease;
+    
+}
+.sidebar ul li{
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 0.8rem auto;
+    line-height: 50px;
+    margin-left: -22px;
+
+
+}
+.sidebar ul li a{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+
+}
+.sidebar ul li a:hover{
+    background-color: #fff;
+    color: #12171e;
+}
+.sidebar ul li a i{
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+ 
+
+/*                         navbar                       */
+
+.prof_name{
+    margin-left: -89px ;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+}
+.prof{
+    font-size: 13px;
+    margin-left: -69px;
+    padding-top: 22px;
+}
+
+.img-logo{
+    width: 30px;
+    border-radius: 10%;
+    border: 1px solid #eee;
+    margin-left: 21px;
+    padding-top: -18px;
+    
+    }
+
+.list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    padding-top: 23px;
+    margin-left: 5px;
+    float: right;
+}
+
+
+
+
